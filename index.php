@@ -87,7 +87,7 @@
     <!--================ Accomodation Area  =================-->
 
     <!--================ Facilities Area  =================-->
-    <section class="facilities_area section_gap">
+    <!-- <section class="facilities_area section_gap">
         <div class="overlay bg-parallax" data-stellar-ratio="0.8" data-stellar-vertical-offset="0" data-background="">
         </div>
         <div class="container">
@@ -134,7 +134,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--================ Facilities Area  =================-->
 
     <!--================ About History Area  =================-->

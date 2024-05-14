@@ -11,7 +11,7 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                         <ul class="nav navbar-nav menu_nav ml-auto">
-                            <li class="nav-item active"><a class="nav-link" href="index.php">Inicio</a></li> 
+                            <li class="nav-item active"><a class="nav-link" href="/">Inicio</a></li> 
                             <li class="nav-item"><a class="nav-link" href="about.php">Sobre Nosotros</a></li>
                             <!-- <li class="nav-item"><a class="nav-link" href="accomodation.php">Accomodation</a></li> -->
                             <!-- <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li> -->

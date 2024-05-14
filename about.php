@@ -43,7 +43,7 @@
                 <div class="row">
                     <div class="col-md-6 d_flex align-items-center">
                         <div class="about_content ">
-                            <h2 class="title title_color">About Us <br>Our History<br>Mission & Vision</h2>
+                        <h2 class="title title_color">Sobre Nosotros<br>Nuestra historia<br>Misión Visión</h2>
                             <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed.</p>
                             <a href="#" class="button_hover theme_btn_two">Request Custom Price</a>
                         </div>
@@ -57,7 +57,7 @@
         <!--================ About History Area  =================-->
         
         <!--================ Facilities Area  =================-->
-        <section class="facilities_area section_gap">
+        <!-- <section class="facilities_area section_gap">
             <div class="overlay bg-parallax" data-stellar-ratio="0.8" data-stellar-vertical-offset="0" data-background="">  
             </div>
             <div class="container">
@@ -104,7 +104,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!--================ Facilities Area  =================-->
         
         <!--================ Testimonial Area  =================-->

@@ -12,8 +12,8 @@
                     <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                         <ul class="nav navbar-nav menu_nav ml-auto">
                             <li class="nav-item active"><a class="nav-link" href="index.php">Inicio</a></li> 
-                            <li class="nav-item"><a class="nav-link" href="about.php">Sobre Nosotros</a></li>
-                            <!-- <li class="nav-item"><a class="nav-link" href="accomodation.php">Accomodation</a></li> -->
+                            <!-- <li class="nav-item"><a class="nav-link" href="about.php">Sobre Nosotros</a></li> -->
+                            <li class="nav-item"><a class="nav-link" href="reservation.php">Reservacion</a></li>
                             <!-- <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li> -->
                             <!-- <li class="nav-item submenu dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>

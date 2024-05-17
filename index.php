@@ -18,9 +18,11 @@
     <!-- main css -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    
 </head>
 
 <body>
+
     <!--================Header Area =================-->
     <?php require_once('header.php')  ?>
     <!--================Header Area =================-->
@@ -28,7 +30,8 @@
     <!--================Banner Area =================-->
     <?php require_once('section.php')  ?>
     <!--================Banner Area =================-->
-
+    
+   
     <!--================ Accomodation Area  =================-->
     <section class="accomodation_area section_gap">
         <div class="container">
@@ -382,7 +385,7 @@
     </footer>
     <!--================ End footer Area  =================-->
 
-
+   
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.2.1.min.js"></script>
@@ -397,6 +400,7 @@
     <script src="js/stellar.js"></script>
     <script src="vendors/lightbox/simpleLightbox.min.js"></script>
     <script src="js/custom.js"></script>
+
 </body>
 
 </html>

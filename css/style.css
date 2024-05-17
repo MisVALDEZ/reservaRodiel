@@ -53,7 +53,12 @@ Table of Content:
   margin: 0px;
   padding: 0px;
 }
-
+#map {
+  height: 500px;
+  width: 800px;
+  border-radius: 15px;
+  margin: 100px auto;
+}
 a {
   text-decoration: none;
   -webkit-transition: all 0.3s ease-in-out;
@@ -350,7 +355,7 @@ button:focus {
 }
 
 .navbar .menu_nav .nav-item:hover .nav-link, .navbar .menu_nav .nav-item.active .nav-link {
-  color: #52c5fd;
+  color: #fc4b08;
 }
 
 .navbar .menu_nav .nav-item.submenu {

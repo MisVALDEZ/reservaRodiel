@@ -2,7 +2,7 @@
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <!-- Brand and toggle get grouped for better mobile display -->
-                    <a class="navbar-brand logo_h" href="index.php"><img src="image/logor.png" alt=""></a>
+                    <a class="navbar-brand logo_h" href="index.php"><img  src="image/Logopikur.jpeg" width="200" class="my-10"alt=""></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -12,7 +12,7 @@
                     <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                         <ul class="nav navbar-nav menu_nav ml-auto">
                             <li class="nav-item active"><a class="nav-link" href="index.php">Inicio</a></li> 
-                            <!-- <li class="nav-item"><a class="nav-link" href="about.php">Sobre Nosotros</a></li> -->
+                         <li class="nav-item"><a class="nav-link" href="about.php">Sobre Nosotros</a></li> 
                             <li class="nav-item"><a class="nav-link" href="reservation.php">Reservacion</a></li>
                             <!-- <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li> -->
                             <!-- <li class="nav-item submenu dropdown">

@@ -148,19 +148,17 @@
                     <div class="about_content ">
                         <h2 class="title title_color">Sobre nosotros<br>Nuestra historia<br>Misión Visión</h2>
                         <p>
-Bienvenidos a PIKUPRD Tours – Transporte Turístico
+                         <strong>Bienvenidos a PIKUPRD Tours – Transporte Turístico</strong><br>
 
-En PIKUPRD Tours, nos dedicamos a ofrecer experiencias de transporte turístico inolvidables. Con años de experiencia en la industria, hemos perfeccionado nuestros servicios para garantizar que cada viaje con nosotros sea cómodo, seguro y lleno de aventuras.
+                          En PIKUPRD Tours, nos dedicamos a ofrecer experiencias de transporte turístico inolvidables. Con años de experiencia en la industria, hemos perfeccionado nuestros servicios para garantizar que cada viaje con nosotros sea cómodo, seguro y lleno de aventuras.
 
-Nuestra flota de vehículos modernos y bien mantenidos está diseñada para satisfacer las necesidades de todo tipo de viajeros, ya sean familias, grupos de amigos, o aventureros solitarios. Con conductores profesionales y conocedores de la región, puedes estar seguro de que estás en buenas manos mientras exploras los lugares más hermosos y emblemáticos.
-
-
+                          Nuestra flota de vehículos modernos y bien mantenidos está diseñada para satisfacer las necesidades de todo tipo de viajeros, ya sean familias, grupos de amigos, o aventureros solitarios. Con conductores profesionales y conocedores de la región, puedes estar seguro de que estás en buenas manos mientras exploras los lugares más hermosos y emblemáticos
 </p>
                         <a href="about_we.php" class="button_hover theme_btn_two">Más Sobre Nosotros</a>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img class="img-fluid" src="image/about_bg1.png" alt="img">
+                    <img class="img-fluid" src="image/Logopikur.jpeg" alt="img">
                 </div>
             </div>
         </div>

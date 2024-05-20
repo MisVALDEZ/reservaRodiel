@@ -88,7 +88,8 @@
                                 </div>
                             </div>
                             <div class="col-md-12 text-right">
-                                <button type="submit" value="submit" class="btn theme_btn button_hover">Send Message</button>
+                    
+                            <button type="submit" value="submit" class="btn theme_btn button_hover">Send Message</button>
                             </div>
                         </form>
                     </div>

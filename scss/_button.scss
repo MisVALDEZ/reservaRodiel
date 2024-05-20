@@ -2,15 +2,15 @@
     font-size: 14px;
     line-height: 30px;
     text-transform: uppercase;
-    color: #fff;
+    color: #c30c0c;
     font-weight: 600;
     background: $yellow;
     padding: 5px 30px;
     &:before{
-        background: #f8b100;
+        background: #ca4304;
     }
     &:hover{
-        color: #fff;
+        color: #c91111;
     }
 }
 .white_btn{
@@ -73,4 +73,7 @@
     line-height: 30px;
     font-weight: 500;
     padding: 5px 20px;
+}
+.nn_btn{
+    background-color: #ea5d06;
 }

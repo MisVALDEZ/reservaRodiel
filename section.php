@@ -16,7 +16,7 @@
         <div class="container">
             <div class="hotel_booking_table">
                 <div class="col-md-3">
-                    <h2>Reserva<br>Con Nosotro</h2>
+                    <h2>Reserva<br>Con Nosotros</h2>
                 </div>
                
                 <a class="btn btn-danger" style="background-color: #fc4b08" href="reservation.php"">Reservar ahora</a>

@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="icon" href="image/favicon.png" type="image/png">
-        <title>Royal Hotel</title>
+        <title>Rodriel Tours</title>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="vendors/linericon/style.css">
@@ -44,7 +44,13 @@
                     <div class="col-md-6 d_flex align-items-center">
                         <div class="about_content ">
                         <h2 class="title title_color">Sobre Nosotros<br>Nuestra historia<br>Misión Visión</h2>
-                            <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed.</p>
+                            <p>Sobre Nosotros
+Bienvenidos a PIKUPRD Tours – Transporte Turístico
+
+En PIKUPRD Tours, nos dedicamos a ofrecer experiencias de transporte turístico inolvidables. Con años de experiencia en la industria, hemos perfeccionado nuestros servicios para garantizar que cada viaje con nosotros sea cómodo, seguro y lleno de aventuras.
+
+Nuestra flota de vehículos modernos y bien mantenidos está diseñada para satisfacer las necesidades de todo tipo de viajeros, ya sean familias, grupos de amigos, o aventureros solitarios. Con conductores profesionales y conocedores de la región, puedes estar seguro de que estás en buenas manos mientras exploras los lugares más hermosos y emblemáticos.
+</p>
                             <a href="#" class="button_hover theme_btn_two">Request Custom Price</a>
                         </div>
                     </div>

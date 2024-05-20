@@ -204,12 +204,12 @@
                                         </div>
                                         <div class="form-group">
                                             <div class="input-group">
-                                                <input type="tel" name="phone" id="phone" class="form-control" placeholder="Numero de Telefono">
+                                                <input type="tel" name="phone" id="phone" class="form-control" required placeholder="Número de Teléfono">
                                             </div>
                                         </div>
                                         <div class="form-group">
                                             <div class="input-group">
-                                                <input type="text" name="numVuelo" id="numVuelo" class="form-control" placeholder="Numero de vuelo">
+                                                <input type="text" name="numVuelo" id="numVuelo" class="form-control" placeholder="Número de vuelo">
                                             </div>
                                         </div>
                                     </div>
@@ -233,12 +233,12 @@
                                         </div>
                                         <div class="form-group">
                                             <div class='input-group date'>
-                                            <input type="time" name="hour" id="hour" class="form-control" min="09:00" max="18:00" step="3600" placeholder="Hora">
+                                                <input type="time" name="hour" id="hour" class="form-control" placeholder="Hora">
                                             </div>
                                         </div>
                                         <div class="form-group">
                                             <div class='input-group date'>
-                                                <input type='number' name="suitcases" id="suitcases" class="form-control" placeholder="Número de maletas">
+                                                <input type='number' name="suitcases" id="suitcases" required class="form-control" placeholder="Número de maletas">
                                             </div>
                                         </div>
                                     </div>
@@ -265,6 +265,7 @@
                                         </div>
                                     </div>
                                 </form>
+
 
                             </div>
                         </div>
@@ -294,55 +295,7 @@
     </section>
     <!--================ Accomodation Area  =================-->
     <!--================ start footer Area  =================-->
-    <footer class="footer-area section_gap">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4  col-md-6 col-sm-6">
-                    <div class="single-footer-widget">
-                        <h1 class="footer_title"><b>About Agency</b></h1>
-                        <p>
-En PIKUPRD Tours, nos dedicamos a ofrecer experiencias de transporte turístico inolvidables. Con años de experiencia en la industria, hemos perfeccionado nuestros servicios para garantizar que cada viaje con nosotros sea cómodo, seguro y lleno de aventuras </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4">
-                    <div class="single-footer-widget">
-                        <h1 class="footer_title"><b>Navigation Links</b></h1>
-                        <div class="row">
-                            <div class="col-8">
-                                <ul class="list_style">
-                                    <li><a href="index.php">Home</a></li>
-                                    <li><a href="reservation.php">Reservacion</a></li>
-                                  
-                                </ul>
-                            </div>
-                            <div class="col-8">
-                                <ul class="list_style">
-                                   
-                                    <li><a href="contact.php">Contact</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                            </form>
-                        </div>
-                    </div>
-                </div>
-               
-            </div>
-            <div class="border_line"></div>
-            <div class="row footer-bottom d-flex justify-content-between align-items-center">
-              
-                   
-                <div class="col-lg-12 col-sm-12 footer-social">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                   
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php require_once('footer.php')  ?>
     <!--================ End footer Area  =================-->
 
 
@@ -371,8 +324,16 @@ En PIKUPRD Tours, nos dedicamos a ofrecer experiencias de transporte turístico 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
         document.getElementById('submitBtn').addEventListener('click', function() {
-            // Crear objeto FormData y agregar los datos del formulario
             var form = document.getElementById('reservationForm');
+
+            // Verificar si el formulario es válido
+            if (form.checkValidity() === false) {
+                // Mostrar mensajes de error por defecto de HTML5
+                form.reportValidity();
+                return;
+            }
+
+            // Crear objeto FormData y agregar los datos del formulario
             var formData = new FormData(form);
 
             // Configurar la solicitud AJAX
@@ -392,17 +353,30 @@ En PIKUPRD Tours, nos dedicamos a ofrecer experiencias de transporte turístico 
                             showConfirmButton: false,
                             timer: 1500
                         });
-                        // alert(response.message);
                         form.reset();
                     } catch (e) {
-                        console.error("No se pudo parsear la respuesta como JSON:", e);
-                        console.error("Respuesta recibida:", xhr.responseText);
-                        alert('Error inesperado. Verifica la consola para más detalles.');
+                        Swal.fire({
+                            position: "top-end",
+                            icon: "error",
+                            title: response.error,
+                            showConfirmButton: false,
+                            timer: 1500
+                        });
+                        // console.error("No se pudo parsear la respuesta como JSON:", e);
+                        // console.error("Respuesta recibida:", xhr.responseText);
+                        // alert('Error inesperado. Verifica la consola para más detalles.');
                     }
                 } else {
-                    console.error("Error en la solicitud AJAX:", xhr.status, xhr.statusText);
-                    console.error("Respuesta del servidor:", xhr.responseText);
-                    alert('Error: No se pudo realizar la solicitud.');
+                    Swal.fire({
+                            position: "top-end",
+                            icon: "error",
+                            title: response.error,
+                            showConfirmButton: false,
+                            timer: 1500
+                        });
+                    // console.error("Error en la solicitud AJAX:", xhr.status, xhr.statusText);
+                    // console.error("Respuesta del servidor:", xhr.responseText);
+                    // alert('Error: No se pudo realizar la solicitud.');
                 }
             };
 

@@ -31,9 +31,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $children = htmlspecialchars($_POST['children']);
     $infants = htmlspecialchars($_POST['infants']);
     $hour = htmlspecialchars($_POST['hour']);
-    $total = 200;
+    $total = 0;
     $distance = getDistanceAndTime($destination, $origin, "K");
     $kl = $distance;
+
+    if (empty($name) || empty($lastname) || empty($phone) || empty($destination) || empty($origin) || empty($date1) || empty($hour) || empty($suitcases) || empty($adults)) {
+        $response['status'] = 'error';
+        $response['message'] = 'Todos los campos obligatorios deben ser completados.';
+        echo json_encode($response);
+        exit;
+    }
 
     // Configurar conexión a la base de datos
     $servername = $_ENV['DB_HOST'];
@@ -108,8 +115,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $conn->close();
     }
 } else {
-    $response['success'] = false;
-    $response['message'] = "Método no permitido";
+    $response['status'] = 'error';
+    $response['message'] = 'Método de solicitud no válido.';
+    echo json_encode($response);
 }
 
 echo json_encode($response);

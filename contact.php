@@ -99,53 +99,7 @@
         <!--================Contact Area =================-->
         
         <!--================ start footer Area  =================-->	
-        <footer class="footer-area section_gap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-8 col-sm-10">
-                        <div class="single-footer-widget">
-                            <h1 class="footer_title"><b>About Agency</b></h1>
-                            <p>
-En PIKUPRD Tours, nos dedicamos a ofrecer experiencias de transporte turístico inolvidables. Con años de experiencia en la industria, hemos perfeccionado nuestros servicios para garantizar que cada viaje con nosotros sea cómodo, seguro y lleno de aventuras </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4">
-                        <div class="single-footer-widget">
-                            <h6 class="footer_title"><b>Navigation Links</b></h6>
-                            <div class="row">
-                                <div class="col-8">
-                                    <ul class="list_style">
-                                        <li><a href="index.php">Home</a></li>
-                                        <li><a href="reservation.php">Reservacion</a></li>
-                                       
-                                    </ul>
-                                </div>
-                                <div class="col-8">
-                                    <ul class="list_style">
-                                        
-                                        <li><a href="contact.php">Contact</a></li>
-                                    </ul>
-                                </div>										
-                            </div>							
-                        </div>
-                    </div>							
-                   
-                        </div>
-                    </div>
-                    					
-                </div>
-                <div class="border_line"></div>
-                <div class="row footer-bottom d-flex justify-content-between align-items-center">
-
-
-                    <div class="col-lg-12 col-sm-12 footer-social">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        
-                    </div>
-                </div>
-            </div>
-        </footer>
+        <?php require_once('footer.php')  ?>
 		<!--================ End footer Area  =================-->
        
        
